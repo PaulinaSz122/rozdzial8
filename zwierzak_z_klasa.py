@@ -6,7 +6,6 @@ class Critter(object):
     def status():
         print("\nOgólna liczba zwierzaków wynosi", Critter.total)
 
-
     def __init__(self, name):
         self.name = name
         print("Urodził się nowy zwierzak!")
